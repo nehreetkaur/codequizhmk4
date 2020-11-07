@@ -1,16 +1,16 @@
-var quizContainer=document.getElementById("quizcontainer");/*quizboddy to quizcontainer*/
+var quizContainer=document.getElementById("quizcontainer");
 
-var resultshowEl=document.getElementById("resultshow");/*result idd chaanged to resssulthow aaaand ellement to resutshowEl*/
+var resultshowEl=document.getElementById("resultshow");
 
 var totalScoreEl=document.getElementById("totalscore");
 
-var endQuizDiv=document.getElementById("endquiz");/*enquiz now new id endquiz*/
+var endQuizDiv=document.getElementById("endquiz");
 
 var questionEl=document.getElementById("questions");
 
 var quizTimer=document.getElementById("timer");
 
-var startButton=document.getElementById("startbutton");/* id changed to startButton*/
+var startButton=document.getElementById("startbutton");
 
 var quizstartDiv=document.getElementById("gamestartpage");
 
@@ -98,7 +98,7 @@ var correct;
 
 
 
-//loop through array
+//loop through array for questions
 function displayQuestion(){
     buttonsDiv.style.display="none";
     if(currentIndex===finalIndex){
@@ -119,7 +119,7 @@ function start(){
     
     displayQuestion();
 
-    //timer
+    //timer functionality
     timerInterval=setInterval(function() {
         timeLeft--;
         quizTimer.textContent="Time left " + timeLeft;
