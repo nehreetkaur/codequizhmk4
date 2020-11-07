@@ -110,11 +110,10 @@ button:hover{
 #scoredisplay{
     display:none;
     width:50%;
-    border:solid;
-    
-    border-bottom-style: inset;
+      
+       border-radius: 30px;
     padding-bottom: 10px;
-    background: pink;
+    background:plum;
 }
 
 
@@ -122,10 +121,10 @@ button:hover{
 #score-header{
     display:flex;
     justify-content: space-around;
-    border-bottom-style:inset;
+    border-radius: 30px;
     margin-bottom:5px;
     background-color:palevioletred;
-    color:papayawhip;
+    color:purple;
     
 
 }
