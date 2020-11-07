@@ -22,9 +22,9 @@ Cascading Style Sheet
 Java  Script  Language.
 
 ## Screenshots of my  Deployed  GitHub Repository
-![first](images\1.png)
-![second](images\2.png)
-![Third](images\3.png)
+![first](images/1.png)
+![second](images/2.png)
+![Third](images/3.png)
 
 
 
