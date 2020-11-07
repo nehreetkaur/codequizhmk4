@@ -142,7 +142,7 @@ function displayScore(){
 
     InputName.value="";
 
-    totalScoreEl.innerHTML="you got" + score + "in total";
+    totalScoreEl.innerHTML="you got"  +" "+" "  +   score + " " + "in total";
 }
 
 
